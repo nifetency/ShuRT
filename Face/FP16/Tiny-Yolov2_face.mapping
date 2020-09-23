@@ -1,0 +1,167 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="convo.5_w" out_port_id="convo.5_w"/>
+		<IR id="29" name="b.n.5_bn_out/mean/Fused_Mul_14981500_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="b.n.7_bn_out" out_port_id="b.n.7_bn_out"/>
+		<IR id="46" name="b.n.7_bn_out/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="input1" out_port_id="input1"/>
+		<IR id="0" name="input1" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="pool5" out_port_id="pool5"/>
+		<IR id="35" name="pool5" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="b.n.3_bn_out" out_port_id="b.n.3_bn_out"/>
+		<IR id="18" name="b.n.3_bn_out/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="pool6" out_port_id="pool6"/>
+		<IR id="42" name="pool6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="convo.4_w" out_port_id="convo.4_w"/>
+		<IR id="22" name="b.n.4_bn_out/mean/Fused_Mul_14941496_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="b.n.5" out_port_id="b.n.5"/>
+		<IR id="34" name="b.n.51853" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="b.n.6" out_port_id="b.n.6"/>
+		<IR id="41" name="b.n.61877" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="convo.6_w" out_port_id="convo.6_w"/>
+		<IR id="36" name="b.n.6_bn_out/mean/Fused_Mul_15021504_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="b.n.8" out_port_id="b.n.8"/>
+		<IR id="54" name="b.n.81857" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="convo.3" out_port_id="convo.3"/>
+		<IR id="16" name="convo.3" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="convo.9_w" out_port_id="convo.9_w"/>
+		<IR id="55" name="onnx_initializer_node_convo.9_w/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="b.n.7" out_port_id="b.n.7"/>
+		<IR id="48" name="b.n.71873" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="convo.8" out_port_id="convo.8"/>
+		<IR id="50" name="convo.8" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="pool1" out_port_id="pool1"/>
+		<IR id="7" name="pool1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="b.n.6_bn_out" out_port_id="b.n.6_bn_out"/>
+		<IR id="39" name="b.n.6_bn_out/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="convo.4" out_port_id="convo.4"/>
+		<IR id="23" name="convo.4" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="convo.1" out_port_id="convo.1"/>
+		<IR id="2" name="convo.1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="b.n.8_bn_out" out_port_id="b.n.8_bn_out"/>
+		<IR id="52" name="b.n.8_bn_out/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="b.n.2_bn_out" out_port_id="b.n.2_bn_out"/>
+		<IR id="11" name="b.n.2_bn_out/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="b.n.4" out_port_id="b.n.4"/>
+		<IR id="27" name="b.n.41865" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="convo.1_w" out_port_id="convo.1_w"/>
+		<IR id="1" name="b.n.1_bn_out/mean/Fused_Mul_14821484_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="pool4" out_port_id="pool4"/>
+		<IR id="28" name="pool4" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="convo.6" out_port_id="convo.6"/>
+		<IR id="37" name="convo.6" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="convo.2_w" out_port_id="convo.2_w"/>
+		<IR id="8" name="b.n.2_bn_out/mean/Fused_Mul_14861488_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="b.n.1_bn_out" out_port_id="b.n.1_bn_out"/>
+		<IR id="4" name="b.n.1_bn_out/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="convo.3_w" out_port_id="convo.3_w"/>
+		<IR id="15" name="b.n.3_bn_out/mean/Fused_Mul_14901492_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="b.n.5_bn_out" out_port_id="b.n.5_bn_out"/>
+		<IR id="32" name="b.n.5_bn_out/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="b.n.2" out_port_id="b.n.2"/>
+		<IR id="13" name="b.n.21869" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="convo.2" out_port_id="convo.2"/>
+		<IR id="9" name="convo.2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="convo.5" out_port_id="convo.5"/>
+		<IR id="30" name="convo.5" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="convo.8_w" out_port_id="convo.8_w"/>
+		<IR id="49" name="b.n.8_bn_out/mean/Fused_Mul_15101512_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="pool2" out_port_id="pool2"/>
+		<IR id="14" name="pool2" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="pool3" out_port_id="pool3"/>
+		<IR id="21" name="pool3" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="convo.7" out_port_id="convo.7"/>
+		<IR id="44" name="convo.7" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="convo.9" out_port_id="0"/>
+		<IR id="56" name="convo.9" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="convo.7_w" out_port_id="convo.7_w"/>
+		<IR id="43" name="b.n.7_bn_out/mean/Fused_Mul_15061508_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="b.n.1" out_port_id="b.n.1"/>
+		<IR id="6" name="b.n.11861" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="b.n.4_bn_out" out_port_id="b.n.4_bn_out"/>
+		<IR id="25" name="b.n.4_bn_out/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="b.n.3" out_port_id="b.n.3"/>
+		<IR id="20" name="b.n.31881" out_port_id="2"/>
+	</map>
+</mapping>
