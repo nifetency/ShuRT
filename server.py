@@ -43,11 +43,19 @@ box = None
 classes = None
 scores = None
 
+#parser
+parser = argparse.ArgumentParser('')
+parser.add_argument('-md', '--one')
+parser.add_argument('-m', '--two')
+parser.add_argument('-dv', '--three')
+parser.add_argument('-dt', '--four')
+args = parser.parse_args()
+
 #InitialConfiguration - @TBD move to another location /config
-Modeldir ="./Objects"
-Model="Tiny-Yolov2"
-Device = "CPU"
-Datatype = "FP16"
+Modeldir = args.one
+Model= args.two
+Device = args.three
+Datatype = args.four
 
 
 
