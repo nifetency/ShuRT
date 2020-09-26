@@ -45,17 +45,17 @@ scores = None
 
 #parser
 parser = argparse.ArgumentParser('')
-parser.add_argument('-md', '--one')
-parser.add_argument('-m', '--two')
-parser.add_argument('-dv', '--three')
-parser.add_argument('-dt', '--four')
+parser.add_argument('-md', '--Modeldir')
+parser.add_argument('-m', '--Model')
+parser.add_argument('-dv', '--Device')
+parser.add_argument('-dt', '--Datatype')
 args = parser.parse_args()
 
 #InitialConfiguration - @TBD move to another location /config
-Modeldir = args.one
-Model= args.two
-Device = args.three
-Datatype = args.four
+Modeldir = args.Modeldir
+Model= args.Model
+Device = args.Device
+Datatype = args.Datatype
 
 
 
