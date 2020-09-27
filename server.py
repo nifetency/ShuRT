@@ -43,21 +43,6 @@ box = None
 classes = None
 scores = None
 
-#parser
-parser = argparse.ArgumentParser('')
-parser.add_argument('-md', '--Modeldir')
-parser.add_argument('-m', '--Model')
-parser.add_argument('-dv', '--Device')
-parser.add_argument('-dt', '--Datatype')
-args = parser.parse_args()
-
-#InitialConfiguration - @TBD move to another location /config
-Modeldir = args.Modeldir
-Model= args.Model
-Device = args.Device
-Datatype = args.Datatype
-
-
 
 # ---------------------------------Load Configurations and Model Parameters---------------------
 def loadmodelconfig(model_dir, model_config_name):
@@ -425,10 +410,21 @@ def main():
     common.configure_logging()
 
     global param
+    global Modeldir
+    global Model
+    global Device
+    global Datatype
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        'source_name', nargs='?', default=common.DEFAULT_SOURCE_NAME)
+    parser.add_argument('source_name', nargs='?', default=common.DEFAULT_SOURCE_NAME)
+    parser.add_argument('-md', '--Modeldir', type=str)
+    parser.add_argument('-m', '--Model', type=str)
+    parser.add_argument('-dv', '--Device', type=str)
+    parser.add_argument('-dt', '--Datatype', type=str)
     args = parser.parse_args()
+    Modeldir = args.Modeldir
+    Model= args.Model
+    Device = args.Device
+    Datatype = args.Datatype
     param=loadmodelconfig(Modeldir, Model)
     def engine_factory():
         return DisplayEngine()
