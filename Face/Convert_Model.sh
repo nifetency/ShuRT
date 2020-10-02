@@ -5,7 +5,7 @@ source /opt/intel/openvino/bin/setupvars.sh
 #Set below Model Parameter
 export ONNX_MODEL_NAME=Tiny-Yolov2_face.onnx
 #-------
-
+#export MODEL_NAME=ShudhOpenVino
 export MODEL_DIR=$(dirname $0)
 export MODEL_OPT_DIR=$INTEL_CVSDK_DIR/deployment_tools
 export ONNX_PATH=$MODEL_DIR/$ONNX_MODEL_NAME
