@@ -1,12 +1,12 @@
 #!/bin/bash
 #SPDX-License-Identifier: Apache-2.0
-source /opt/intel/openvino/bin/setupvars.sh
 
 #Set below Model Parameter
-export ONNX_MODEL_NAME=Tiny-Yolov2_face.onnx
+export ONNX_MODEL_NAME=$1
 #-------
-#export MODEL_NAME=ShudhOpenVino
-export MODEL_DIR=$(dirname $0)
+source /opt/intel/openvino/bin/setupvars.sh
+
+export MODEL_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 export MODEL_OPT_DIR=$INTEL_CVSDK_DIR/deployment_tools
 export ONNX_PATH=$MODEL_DIR/$ONNX_MODEL_NAME
 export OUTPUT_DIR=$MODEL_DIR

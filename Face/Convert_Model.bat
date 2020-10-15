@@ -2,7 +2,7 @@
 call "C:\Program Files (x86)\IntelSWTools\openvino\bin\setupvars.bat"
 
 ::Set below Model Parameters
-set ONNX_MODEL_NAME=Tiny-Yolov2_face.onnx
+set ONNX_MODEL_NAME= %1
 ::-------
 :: set MODEL_NAME=ShudhOpenVino
 set MODEL_DIR=%cd%
