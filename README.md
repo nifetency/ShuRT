@@ -1,3 +1,17 @@
+<div align="center">
+
+<h3><b><u>Deploy this project instantly</u></b></h3>
+
+<a href="https://launch.nife.io/deploy-app/start?repository-url=https://github.com/nifetency/ShuRT">
+  <img
+    src="https://launch.nife.io/deploy-on-nife.svg"
+    alt="Deploy on NIFE"
+    width="280"
+  />
+</a>
+
+</div>
+
 # TensorFlow-2.x-YOLOv3 and YOLOv4 tutorials
 
 YOLOv3 and YOLOv4 implementation in TensorFlow 2.x, with support for training, transfer training, object tracking mAP and so on...
